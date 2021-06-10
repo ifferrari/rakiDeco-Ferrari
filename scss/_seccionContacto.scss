@@ -1,0 +1,32 @@
+@import 'variables';
+
+.seccionDestacadas {
+display: flex;
+justify-content: center;
+padding-top: 2em;
+padding-bottom: 10em; }
+
+.fondoDestacadas {
+background-color: $color-pastel-tipo;
+background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+display: flex;
+justify-content: space-around;
+width: 1000px;
+margin: 50px 0; }
+
+.textoIdea {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10em; 
+}
+  
+.formatoImg {
+filter: drop-shadow(0 0 1em #ffac40e0); }
+
+
+.imgDer{
+    position: relative;
+    left: 5em;
+    bottom: 2em;    
+}

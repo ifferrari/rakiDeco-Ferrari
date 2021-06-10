@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #ddd44d; } }
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #af5c5c; } }
+/* Desktop */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: white; } }
+/*IMPORTS*/
+.whatsapp {
+  position: fixed;
+  z-index: 5;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50px; }
+
+.whatsapp-icon {
+  margin-top: 13px; }
+
+/*Logo Menu Index*/
+.imgHeader {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 12em;
+  height: 12em;
+  padding-bottom: 2em;
+  transform: rotate(6deg); }
+
+.menuIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1em; }
+  .menuIndex div a {
+    color: black;
+    text-decoration: none;
+    font-weight: 300; }
+    .menuIndex div a:hover {
+      border-top: 1px solid #000000;
+      border-bottom: 1px solid #000000;
+      color: #ebbe9b; }
+
+/*Size*/
+.sectionBasic {
+  padding-top: 5em; }
+
+.sectionImagen {
+  margin-top: 4em; }
+
+.botonContacto {
+  font-weight: 200; }
+
+footer div a {
+  font-weight: 300; }
+
+footer {
+  background-color: #ebbe9b;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); }
+  footer div a {
+    color: black;
+    text-decoration: none; }
+    footer div a:hover {
+      border-top: 1px solid #000000;
+      border-bottom: 1px solid #000000;
+      text-decoration: none;
+      color: black; }
+
+/*Configuraciones Logo footer*/
+.rakiLogoMini {
+  width: 5em;
+  height: 5em; }
+
+.info {
+  display: flex;
+  float: none;
+  font-size: 1em;
+  font-weight: bold;
+  display: flex; }
+
+.seccionDestacadas {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 10em; }
+
+.fondoDestacadas {
+  background-color: #ebbe9b;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin: 50px 0; }
+
+.textoIdea {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10em; }
+
+.formatoImg {
+  filter: drop-shadow(0 0 1em #ffac40e0); }
+
+.imgDer {
+  position: relative;
+  left: 5em;
+  bottom: 2em; }
+
+.imgIzq {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  right: 5em;
+  bottom: 2em;
+  top: 0em; }
+
+.imgDer {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  right: 0em;
+  bottom: 2em;
+  top: 0em; }
+
+.imgMed {
+  width: 350px;
+  height: 300px;
+  position: relative;
+  right: 0em;
+  bottom: 2em;
+  top: 10em; }
+
+/*Size*/
+.sectionBasic {
+  padding-top: 5em; }
+
+.sectionImagen {
+  margin-top: 4em; }
+
+.botonContacto {
+  font-weight: 200; }
+
+footer div a {
+  font-weight: 300; }
+
+.carrouselIndex {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+.centerMenu {
+  display: flex;
+  justify-content: center; }
+
+.seccionDestacadas {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 10em; }
+
+.fondoDestacadas {
+  background-color: #ebbe9b;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin: 50px 0; }
+
+.textoIdea {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10em; }
+
+.formatoImg {
+  filter: drop-shadow(0 0 1em #ffac40e0); }
+
+.menuIdea {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1em; }
+
+.menuIdea h1 {
+  padding-top: 6em; }
+
+.textoIdea div h1, .textoIdea div h3 {
+  font-size: 20px; }
+
+.botonContacto {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #72c23d;
+  border-radius: 500px;
+  border: 1px solid #18860a;
+  position: relative;
+  top: 1em;
+  right: 0,5em; }
+
+.botonContacto:hover {
+  color: #ffffff;
+  background-color: #9baaeb;
+  transform: scale(1.1, 1.1); }
+
+.sectionProducto {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: space-around;
+  filter: drop-shadow(0 0 1em rgba(240, 197, 8, 0.877)); }
+
+.example {
+  display: flex; }
+
+.formatoImgProd {
+  width: 20em;
+  height: 20em; }
+
+.formatoImgProd:hover {
+  transform: scale(1.5, 1.5); }
+
+/*Configuraciones generales */
+.fondoRaki {
+  font-family: 'Montserrat', sans-serif; }
+
+.navegacion {
+  text-align: center;
+  position: relative;
+  margin-top: 1em;
+  margin-left: 14em; }
+
+.sectionBasic {
+  font-style: normal;
+  font-weight: bold;
+  float: none; }
+
+.sectionBasic h1, .sectionBasic h2 {
+  padding-bottom: 1em; }
+
+.datosContacto {
+  padding-top: 2em; }
+
+.datosContacto p {
+  display: inline-block;
+  padding-bottom: 2em; }
+
+.sectionImagen {
+  padding-bottom: 5em;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  filter: drop-shadow(0 0 1em rgba(240, 197, 8, 0.877)); }
+
+/*Animaciones*/
+/*Logo Header*/
+.scale-up-ver-center {
+  animation: scale-up-ver-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+
+@keyframes scale-up-ver-center {
+  0% {
+    transform: scaleY(0.4); }
+  100% {
+    transform: scaleY(1); } }
+/*Imagenes INDEX*/
+.slide-fwd-right {
+  animation: slide-fwd-right 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+@keyframes slide-fwd-right {
+  0% {
+    transform: translateZ(0) translateX(0); }
+  100% {
+    transform: translateZ(160px) translateX(100px); } }
+.slide-fwd-center {
+  animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+@keyframes slide-fwd-center {
+  0% {
+    transform: translateZ(0); }
+  100% {
+    transform: translateZ(160px); } }
+.slide-fwd-left {
+  animation: slide-fwd-left 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+@keyframes slide-fwd-left {
+  0% {
+    transform: translateZ(0) translateX(0); }
+  100% {
+    transform: translateZ(160px) translateX(-100px); } }
+
+/*# sourceMappingURL=style.css.map */

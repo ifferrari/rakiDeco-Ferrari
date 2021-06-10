@@ -1,0 +1,25 @@
+
+@mixin estructuraImg($imgwidth, $imgHeight, $position, $posRight, $posLeft, $posBottom, $posTop){
+    width: $imgwidth;
+    height: $imgHeight;
+    position: $position;
+    right: $posRight;
+    bottom: $posBottom;
+    top: $posTop;
+}
+
+
+.imgIzq{
+    @include estructuraImg(350px, 250px, relative, 5em, 0em, 2em, 0em)
+}
+.imgDer{
+    @include estructuraImg(350px, 250px, relative, 0em, 5em, 2em, 0em)
+}
+
+.imgMed{
+    @include estructuraImg(350px, 300px, relative, 0em, 5em, 2em, 10em)
+}
+
+
+
+

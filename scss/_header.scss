@@ -1,0 +1,36 @@
+/*Logo Menu Index*/
+
+@import 'variables';
+
+.imgHeader{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 12em;
+    height: 12em;
+    padding-bottom: 2em;
+    transform: rotate(6deg);
+    
+}
+
+.menuIndex{
+    display: flex;  
+    flex-direction: row; 
+    justify-content: space-evenly;
+    font-size: 1em;
+    div {
+        a{ 
+            color: black;
+            text-decoration: none;
+            font-weight:300;
+
+            &:hover{
+                border-top: 1px solid #000000;
+                border-bottom: 1px solid #000000;
+                color: $color-pastel-tipo;
+            }   
+        } 
+    }
+}
+
+

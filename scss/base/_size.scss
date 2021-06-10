@@ -1,0 +1,26 @@
+
+/*Size*/
+
+$em-standar: 2em;
+$font-weight-standar: 1000; 
+
+.sectionBasic{
+    padding-top: $em-standar + 3;
+}
+
+.sectionImagen{
+    margin-top: $em-standar * 2;
+}
+
+.botonContacto{
+    font-weight: $font-weight-standar / 5;
+}
+
+footer{
+    div{
+        a{font-weight: $font-weight-standar - 700;
+
+        }
+    }
+}
+
